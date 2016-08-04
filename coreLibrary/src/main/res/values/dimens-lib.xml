@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tab_bar -->
+    <dimen name="tab_dot_width_height">8dp</dimen>
+    <dimen name="tab_dot_margin_right">9dp</dimen>
+    <dimen name="tab_dot_margin_top">7dp</dimen>
+    <dimen name="tab_dot_text_size">10sp</dimen>
+    <!-- tab bar -->
+
+    <!-- time line-->
+    <dimen name="timeline_default_internalPadding">2dp</dimen>
+    <dimen name="timeline_default_lineWidth">2dp</dimen>
+    <dimen name="timeline_default_itemSize">6dp</dimen>
+    <!-- time line-->
+
+</resources>

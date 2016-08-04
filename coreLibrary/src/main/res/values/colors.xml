@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="green">@android:color/holo_green_light</color>
+    <color name="blue">@android:color/holo_blue_light</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="translucent_strong">#30000000</color>
+    <color name="translucent">#50000000</color>
+    <color name="translucent_week">#70000000</color>
+
+    <color name="text_hint_color">#cccccc</color>
+
+    <color name="divider_line_color">#e4e4e4</color>
+    <color name="divider_line_color_light">#f1f5f5</color>
+
+    <color name="black_high">#333333</color>
+    <color name="black_middle">#808080</color>
+    <color name="black_week_middle">#bbbbbb</color>
+    <color name="black_dark">#cccccc</color>
+
+    <color name="red_middle">#f14545</color>
+    <color name="red_dark">#f57d7e</color>
+
+    <color name="green_middle">#39a16a</color>
+    <color name="green_week_middle">#7839a16a</color>
+    <color name="green_dark">#acdcc2</color>
+    <color name="green_week_dark">#e3fff0</color>
+
+    <color name="titlebar_bg">#e8e8e8</color>
+    <color name="titlebar_divider_line_bg">#bbbbbb</color>
+    <color name="titlebar_text_color">#333333</color>
+
+    <color name="app_background_main_color_gray">#f5f5f5</color>
+
+    <color name="titlebar_bg2">@color/app_background_color</color>
+    <color name="titlebar_divider_line_bg2">@color/app_background_color</color>
+    <color name="titlebar_text_color2">#333333</color>
+    <dimen name="titlebar_title_size2">16dp</dimen>
+    <dimen name="titlebar_action_text_size2">14sp</dimen>
+
+    <color name="app_background_color">#f4f4f4</color>
+
+    <color name="item_hint_msg_color">#f5f5f5</color>
+    <color name="item_msg_color">@color/white</color>
+
+    <color name="test">#83cde6</color>
+
+</resources>

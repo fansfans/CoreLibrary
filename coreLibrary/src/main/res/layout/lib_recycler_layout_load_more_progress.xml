@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height_week_middle">
+
+        <ProgressBar
+            android:layout_width="@dimen/image_size_week_small"
+            android:layout_height="@dimen/image_size_week_small"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_big_margin"
+            style="?android:progressBarStyleSmall"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/text_black_high_small"
+            android:text="正在加载.."/>
+
+    </RelativeLayout>
+</FrameLayout>

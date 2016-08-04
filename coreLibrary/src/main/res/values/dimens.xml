@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_big">22sp</dimen>
+    <dimen name="text_size_week_big">18sp</dimen>
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_week_middle">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_week_small">10sp</dimen>
+    <dimen name="text_size_week_week_small">8sp</dimen>
+
+    <dimen name="image_size_strong_big">120dip</dimen>
+    <dimen name="image_size_big">100dip</dimen>
+    <dimen name="image_size_week_big">80dip</dimen>
+    <dimen name="image_size_strong_middle">60dip</dimen>
+    <dimen name="image_size_middle">50dip</dimen>
+    <dimen name="image_size_week_middle">40dip</dimen>
+    <dimen name="image_size_small">30dip</dimen>
+    <dimen name="image_size_week_small">20dip</dimen>
+
+    <dimen name="divider_line_item_height">10dip</dimen>
+    <dimen name="divider_line_item_week_height">5dip</dimen>
+    <dimen name="divider_line_item_width">10dip</dimen>
+    <dimen name="divider_line_item_week_width">5dip</dimen>
+    <dimen name="divider_line_height">1px</dimen>
+    <dimen name="divider_line_width">1px</dimen>
+
+    <dimen name="progress_bar_line_height">1dp</dimen>
+    <dimen name="progress_bar_line_height_two">2dp</dimen>
+    <dimen name="progress_bar_line_width">1dp</dimen>
+    <dimen name="progress_bar_line_width_two">2dp</dimen>
+
+    <dimen name="line_height_big_big">110dp</dimen>
+    <dimen name="line_height_big">80dp</dimen>
+    <dimen name="line_height_week_big">68dp</dimen>
+    <dimen name="line_height_middle">52dp</dimen>
+    <dimen name="line_height_week_middle">40dp</dimen>
+    <dimen name="line_height_small">32dp</dimen>
+    <dimen name="line_height_week_small">20dp</dimen>
+    <dimen name="line_height_week_week_small">10dp</dimen>
+
+
+    <dimen name="activity_horizontal_big_margin">32dp</dimen>
+    <dimen name="activity_horizontal_big_padding">32dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_padding">16dp</dimen>
+    <dimen name="activity_horizontal_week_margin">12dp</dimen>
+    <dimen name="activity_horizontal_week_padding">12dp</dimen>
+
+    <dimen name="activity_vertical_big_margin">32dp</dimen>
+    <dimen name="activity_vertical_big_padding">32dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_padding">16dp</dimen>
+    <dimen name="activity_vertical_week_margin">12dp</dimen>
+    <dimen name="activity_vertical_week_padding">12dp</dimen>
+
+    <dimen name="edit_text_padding">8dp</dimen>
+    <dimen name="edit_text_margin">8dp</dimen>
+    <dimen name="edit_text_frame_padding">16dp</dimen>
+    <dimen name="edit_text_frame_margin">16dp</dimen>
+
+    <dimen name="text_view_padding_horizontal">6dip</dimen>
+    <dimen name="text_view_padding_vertival">2dip</dimen>
+
+    <dimen name="text_view_padding_horizontal_big">10dip</dimen>
+    <dimen name="text_view_padding_vertival_big">4dip</dimen>
+
+    <dimen name="text_view_padding_horizontal_big_big">20dip</dimen>
+    <dimen name="text_view_padding_vertival_big_big">6dip</dimen>
+
+    <dimen name="wrap_text_padding_horizontal">12dip</dimen>
+    <dimen name="wrap_text_padding_vertical">8dip</dimen>
+    
+    <dimen name="widget_small_margin">8dip</dimen>
+    <dimen name="widget_small_padding">8dip</dimen>
+    <dimen name="widget_small_week_margin">4dip</dimen>
+    <dimen name="widget_small_week_padding">4dip</dimen>
+
+    <!-- material design-->
+
+    <dimen name="avatar_size_big">64dp</dimen>
+    <dimen name="avatar_size_middle">40dp</dimen>
+
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="app_bar_height">56dp</dimen>
+    <dimen name="tab_bar_height">48dp</dimen>
+
+    <dimen name="floating_action_button_big">56dp</dimen>
+    <dimen name="floating_action_button_middle">40dp</dimen>
+
+    <dimen name="card_vertical_margin">8dp</dimen>
+    <dimen name="card_horizontal_margin">8dp</dimen>
+    <dimen name="card_round_corners_radius">2dp</dimen>
+
+    <dimen name="icon_small_size">24dp</dimen>
+    <dimen name="icon_middle_size">48dp</dimen>
+    <dimen name="icon_round_corners_radius">2dp</dimen>
+
+    <dimen name="snack_bar_vertical_padding">8dp</dimen>
+    <dimen name="snack_bar_horizontal_padding">16dp</dimen>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="superrecyclerview">
+        <attr name="layout_empty" format="reference"/>
+        <attr name="layout_moreProgress" format="reference"/>
+        <attr name="layout_progress" format="reference"/>
+        <attr name="recyclerClipToPadding" format="boolean"/>
+        <attr name="recyclerPadding" format="dimension"/>
+        <attr name="recyclerPaddingTop" format="dimension"/>
+        <attr name="recyclerPaddingBottom" format="dimension"/>
+        <attr name="recyclerPaddingLeft" format="dimension"/>
+        <attr name="recyclerPaddingRight" format="dimension"/>
+        <attr name="scrollbarStyle">
+            <flag name="insideOverlay" value="0x0"/>
+            <flag name="insideInset" value="0x01000000"/>
+            <flag name="outsideOverlay" value="0x02000000"/>
+            <flag name="outsideInset" value="0x03000000"/>
+        </attr>
+
+        <attr name="mainLayoutId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_radius" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_background" format="color|integer"/>
+        <attr name="ci_selected_background" format="color|integer"/>
+        <attr name="ci_gravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="ci_mode">
+            <enum name="inside" value="0"/>
+            <enum name="outside" value="1"/>
+            <enum name="solo" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBarView">
+        <attr name="starImageSize" format="dimension" />
+        <attr name="starCount" format="integer" />
+        <attr name="starEmpty" format="reference" />
+        <attr name="starFill" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TabBar">
+        <attr name="tabUnderlineColor" format="color"/>
+        <attr name="tabDividerColor" format="color"/>
+        <attr name="tabItemTextSize" format="reference"/>
+        <attr name="tabItemTextColor" format="color"/>
+        <attr name="tabItemTextSelectColor" format="color"/>
+        <attr name="tabBarIndicatorColor" format="color"/>
+        <attr name="tabBarIndicatorHeight" format="dimension"/>
+        <attr name="tabUnderlineHeight" format="dimension"/>
+        <attr name="tabDividerPadding" format="dimension"/>
+        <attr name="tabPaddingLeftRight" format="dimension"/>
+        <attr name="tabPaddingTopBottom" format="dimension"/>
+        <attr name="tabScrollOffset" format="dimension"/>
+        <!--<attr name="apTabBackground" format="reference"/>-->
+        <attr name="tabBackgroundColor" format="color"/>
+        <attr name="tabShouldExpand" format="boolean"/>
+        <attr name="tabTextAllCaps" format="boolean"/>
+        <attr name="tabDrawMode" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="text" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TimelineView">
+        <attr format="dimension" name="timeline_lineWidth"/>
+        <attr format="color" name="timeline_lineColor"/>
+
+        <attr format="dimension" name="timeline_indicatorSize"/>
+        <attr format="color" name="timeline_indicatorColor"/>
+
+        <attr format="enum" name="timeline_type">
+            <enum name="hidden" value="-1"/>
+            <enum name="start" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="line" value="2"/>
+            <enum name="end" value="3"/>
+        </attr>
+
+        <attr format="enum" name="timeline_alignment">
+            <enum name="start" value="-1"/>
+            <enum name="middle" value="0"/>
+            <enum name="end" value="1"/>
+        </attr>
+
+        <attr format="enum" name="timeline_lineStyle">
+            <enum name="dashed" value="-1"/>
+            <enum name="linear" value="0"/>
+        </attr>
+
+        <attr format="boolean" name="timeline_drawInternal"/>
+        <attr format="color" name="timeline_internalColor"/>
+        <attr format="reference" name="timeline_internalDrawable"/>
+        <attr format="dimension" name="timeline_internalPadding"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="TagCloudView">
+        <attr name="tcvBackground" format="reference"/>
+        <attr name="tcvTextColor" format="color"/>
+        <attr name="tcvBorder" format="dimension"/>
+        <attr name="tcvTextSize" format="float"/>
+        <attr name="tcvBorderItem" format="dimension"/>
+        <attr name="tcvItemBorderVertical" format="dimension"/>
+        <attr name="tcvItemBorderHorizontal" format="dimension"/>
+
+        <attr name="tcvSingleLine" format="boolean"/>
+        <attr name="tcvShowEndText" format="boolean"/>
+        <!--<attr name="tcvShowRightImg" format="boolean"/>-->
+        <!--<attr name="tcvRightResId" format="reference"/>-->
+        <attr name="tcvEndText" format="string"/>
+        <attr name="tcvCanTagClick" format="boolean"/>
+
+        <attr name="tcvTagResId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="integer"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimProgressButton">
+        <attr name="progressbtn_radius" format="float" />
+        <attr name="progressbtn_backgroud_color" format="color" />
+        <attr name="progressbtn_backgroud_second_color" format="color" />
+        <attr name="progressbtn_text_color" format="color" />
+        <attr name="progressbtn_text_covercolor" format="color" />
+    </declare-styleable>
+
+
+</resources>

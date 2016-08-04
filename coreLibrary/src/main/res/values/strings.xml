@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CoreLibrary</string>
+
+    <string name="common_text_back">返回</string>
+    <string name="common_text_skip">跳过</string>
+    <string name="common_text_save">保存</string>
+    <string name="common_text_commit">提交</string>
+    <string name="common_text_confirm">确认</string>
+    <string name="common_text_sure">确定</string>
+    <string name="common_text_send">发送</string>
+    <string name="common_text_retrieve">找回</string>
+    <string name="common_text_confirm_back">确认返回</string>
+    <string name="common_text_cancel">取消</string>
+    <string name="common_text_lookup">查看</string>
+    <string name="common_text_all">全部</string>
+    <string name="common_text_insert">导入</string>
+    <string name="common_text_hint">提示</string>
+    <string name="common_text_edit">修改</string>
+    <string name="common_text_complete">完成</string>
+    <string name="common_text_accept">接受</string>
+    <string name="common_text_refuse">拒绝</string>
+    <string name="common_text_post">发表</string>
+    <string name="common_text_share">分享</string>
+    <string name="common_text_open">打开</string>
+</resources>
