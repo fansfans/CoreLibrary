@@ -71,4 +71,5 @@ dependencies {
 
 //    compile project(':CoreHttpUtil')
     compile project(':okhttputils')
+//    compile 'com.zhy:okhttputils:2.6.2';
 }
