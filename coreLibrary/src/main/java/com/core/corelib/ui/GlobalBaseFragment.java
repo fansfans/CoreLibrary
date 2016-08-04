@@ -8,8 +8,8 @@ import com.core.corelib.R;
 import com.core.corelib.eventbus3.EventBus3Helper;
 import com.core.corelib.eventbus3.event.BaseEvent;
 import com.core.corelib.leak.LeakCanaryHelper;
-import com.core.corelib.network.NetworkHelper;
-import com.core.corelib.network.cyclecontext.HttpCycleContext;
+import com.core.network.NetworkHelper;
+import com.core.network.cyclecontext.HttpCycleContext;
 import com.core.corelib.ui.widget.TitleBar;
 
 import org.greenrobot.eventbus.Subscribe;

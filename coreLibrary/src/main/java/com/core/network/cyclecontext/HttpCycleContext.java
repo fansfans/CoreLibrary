@@ -1,4 +1,4 @@
-package com.core.corelib.network.cyclecontext;
+package com.core.network.cyclecontext;
 
 /**
  * Created by admin on 16/2/25.

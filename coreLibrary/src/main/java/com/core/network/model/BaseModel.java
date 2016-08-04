@@ -1,4 +1,4 @@
-package com.core.corelib.network.model;
+package com.core.network.model;
 
 /**
  * Created by admin on 15/12/17.

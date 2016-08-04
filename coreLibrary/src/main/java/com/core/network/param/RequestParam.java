@@ -1,4 +1,4 @@
-package com.core.corelib.network.param;
+package com.core.network.param;
 
 import com.core.corelib.util.GlobalAppUtil;
 

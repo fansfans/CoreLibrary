@@ -1,4 +1,4 @@
-package com.core.corelib.network.interceptor;
+package com.core.network.interceptor;
 
 import java.io.IOException;
 import java.util.HashMap;

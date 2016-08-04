@@ -1,10 +1,10 @@
-package com.core.corelib.network.callback;
+package com.core.network.callback;
 
 import android.text.TextUtils;
 
 import com.core.corelib.json.JsonHelper;
-import com.core.corelib.network.exception.BaseException;
-import com.core.corelib.network.model.BaseModel;
+import com.core.network.exception.NetworkException;
+import com.core.network.model.BaseModel;
 import com.zhy.http.okhttp.callback.Callback;
 
 import java.io.IOException;
@@ -25,7 +25,7 @@ public abstract class BaseModelCallback <T extends BaseModel> extends Callback<T
         String s = response.body().string();
         if (TextUtils.isEmpty(s)) {
 
-            throw new BaseException("返回数据空值");
+            throw new NetworkException("返回数据空值");
         } else {
 
             ParameterizedType parameterizedType = null;
@@ -33,7 +33,7 @@ public abstract class BaseModelCallback <T extends BaseModel> extends Callback<T
                 parameterizedType = (ParameterizedType) getClass().getGenericSuperclass();
             } catch (ClassCastException e) {
                 e.printStackTrace();
-                throw new BaseException("参数类型转换异常 client error:-1");
+                throw new NetworkException("参数类型转换异常 client error:-1");
             }
 
             Class<T> entityClass = null;
@@ -41,14 +41,14 @@ public abstract class BaseModelCallback <T extends BaseModel> extends Callback<T
                 entityClass = (Class<T>) parameterizedType.getActualTypeArguments()[0];
             } catch (ClassCastException e) {
                 e.printStackTrace();
-                throw new BaseException("字节码类型转换异常 client error:-2");
+                throw new NetworkException("字节码类型转换异常 client error:-2");
             }
 
             T bean = null;
             try {
                 bean = JsonHelper.deserialize(s, entityClass);
             } catch (Exception e) {
-                throw new BaseException("数据解析异常");
+                throw new NetworkException("数据解析异常");
             }
             return bean;
         }
@@ -65,7 +65,7 @@ public abstract class BaseModelCallback <T extends BaseModel> extends Callback<T
         } else if (e instanceof ConnectException){
 
             onFailure("连接异常");
-        } else if (e instanceof BaseException) {
+        } else if (e instanceof NetworkException) {
 
             onFailure(e.getMessage());
         } else if (e instanceof IOException) {

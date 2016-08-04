@@ -1,10 +1,10 @@
-package com.core.corelib.network;
+package com.core.network;
 
 import android.content.Context;
 
-import com.core.corelib.network.callback.BaseModelCallback;
-import com.core.corelib.network.cyclecontext.HttpCycleContext;
-import com.core.corelib.network.param.RequestParam;
+import com.core.network.callback.BaseModelCallback;
+import com.core.network.cyclecontext.HttpCycleContext;
+import com.core.network.param.RequestParam;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.builder.OkHttpRequestBuilder;
 import com.zhy.http.okhttp.builder.PostFormBuilder;
