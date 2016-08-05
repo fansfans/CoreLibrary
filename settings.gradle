@@ -1,1 +1,2 @@
-include ':app', ':coreLibrary', ":okhttputils"
+include ':app'
+include ':coreLibrary'

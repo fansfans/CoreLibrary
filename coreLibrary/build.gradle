@@ -69,7 +69,6 @@ dependencies {
     /** super toast*/
     compile 'com.github.johnpersano:supertoasts:1.3.4@aar'
 
-//    compile project(':CoreHttpUtil')
     compile project(':okhttputils')
 //    compile 'com.zhy:okhttputils:2.6.2';
 }
