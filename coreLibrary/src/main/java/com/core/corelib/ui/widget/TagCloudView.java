@@ -44,6 +44,7 @@ public class TagCloudView extends ViewGroup{
     private int mTagResId;
 //    private int mRightImageResId;
     private boolean mSingleLine;
+    private int mMaxLines;
 //    private boolean mShowRightImage;
     private boolean mShowEndText;
     private boolean mCanTagClick;
@@ -67,6 +68,7 @@ public class TagCloudView extends ViewGroup{
     private static final int DEFAULT_TAG_RESID = R.layout.lib_tag_item_layout;
 //    private static final int DEFAULT_RIGHT_IMAGE = R.drawable.arrow_right;
     private static final boolean DEFAULT_SINGLE_LINE = false;
+    private static final int DEFAULT_MAX_LINES = 0;
     private static final boolean DEFAULT_SHOW_RIGHT_IMAGE = true;
     private static final boolean DEFAULT_SHOW_END_TEXT = true;
     private static final String DEFAULT_END_TEXT_STRING = " … ";
@@ -104,6 +106,7 @@ public class TagCloudView extends ViewGroup{
 
 //        mRightImageResId = a.getResourceId(R.styleable.TagCloudView_tcvRightResId, DEFAULT_RIGHT_IMAGE);
         mSingleLine = a.getBoolean(R.styleable.TagCloudView_tcvSingleLine, DEFAULT_SINGLE_LINE);
+        mMaxLines = a.getInteger(R.styleable.TagCloudView_tcvMaxLines, DEFAULT_MAX_LINES);
 //        mShowRightImage = a.getBoolean(R.styleable.TagCloudView_tcvShowRightImg, DEFAULT_SHOW_RIGHT_IMAGE);
         mShowEndText = a.getBoolean(R.styleable.TagCloudView_tcvShowEndText, DEFAULT_SHOW_END_TEXT);
         endTextString = a.getString(R.styleable.TagCloudView_tcvEndText);
@@ -286,6 +289,7 @@ public class TagCloudView extends ViewGroup{
     private int getMultiTotalHeight(int totalWidth, int totalHeight) {
         int childWidth;
         int childHeight;
+        int lines = 1;
         for (int i = 0; i < getChildCount(); i++) {
             View child = getChildAt(i);
             childWidth = child.getMeasuredWidth();
@@ -298,6 +302,9 @@ public class TagCloudView extends ViewGroup{
             }
             // + marginLeft 保证最右侧与 ViewGroup 右边距有边界
             if (totalWidth + mTagBorderHor + mViewBorder> sizeWidth) {
+                if (++lines > mMaxLines && mMaxLines >= DEFAULT_MAX_LINES) {
+                    break;
+                }
                 totalWidth = mViewBorder;
                 totalHeight += childHeight + mTagBorderVer;
                 child.layout(

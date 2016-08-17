@@ -104,9 +104,9 @@
     <declare-styleable name="TagCloudView">
         <attr name="tcvBackground" format="reference"/>
         <attr name="tcvTextColor" format="color"/>
-        <attr name="tcvBorder" format="dimension"/>
         <attr name="tcvTextSize" format="float"/>
-        <attr name="tcvBorderItem" format="dimension"/>
+        <attr name="tcvBorder" format="dimension"/>
+        <!--<attr name="tcvBorderItem" format="dimension"/>-->
         <attr name="tcvItemBorderVertical" format="dimension"/>
         <attr name="tcvItemBorderHorizontal" format="dimension"/>
 
@@ -114,6 +114,7 @@
         <attr name="tcvShowEndText" format="boolean"/>
         <!--<attr name="tcvShowRightImg" format="boolean"/>-->
         <!--<attr name="tcvRightResId" format="reference"/>-->
+        <attr name="tcvMaxLines" format="integer"/>
         <attr name="tcvEndText" format="string"/>
         <attr name="tcvCanTagClick" format="boolean"/>
 
