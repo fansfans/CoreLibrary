@@ -36,7 +36,7 @@
     <dimen name="line_height_week_middle">40dp</dimen>
     <dimen name="line_height_small">32dp</dimen>
     <dimen name="line_height_week_small">20dp</dimen>
-    <dimen name="line_height_week_week_small">10dp</dimen>
+    <dimen name="line_height_week_week_small">8dp</dimen>
 
 
     <dimen name="activity_horizontal_big_margin">32dp</dimen>
@@ -69,7 +69,9 @@
 
     <dimen name="wrap_text_padding_horizontal">12dip</dimen>
     <dimen name="wrap_text_padding_vertical">8dip</dimen>
-    
+
+    <dimen name="widget_small_strong_margin">14dip</dimen>
+    <dimen name="widget_small_strong_padding">14dip</dimen>
     <dimen name="widget_small_margin">8dip</dimen>
     <dimen name="widget_small_padding">8dip</dimen>
     <dimen name="widget_small_week_margin">4dip</dimen>
